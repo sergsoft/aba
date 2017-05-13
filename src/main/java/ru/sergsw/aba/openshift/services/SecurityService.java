@@ -6,4 +6,6 @@ public interface SecurityService {
     String makePassword(UserInfo userInfo, String password);
 
     String makeToken();
+
+    String makeSalt();
 }
